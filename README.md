@@ -13,6 +13,14 @@ npm install stylesetter
   StyleSetter();
   // or use 'Vue.use(StyleSetter)' in Vue Project
   ```
+  or
+  ``` js
+  import('stylesetter').then(
+      (module) => {
+          module.default();
+      }
+  )
+  ```
 - _CJS_  
   ``` js
   const StyleSetter = require("stylesetter");
@@ -20,10 +28,9 @@ npm install stylesetter
   StyleSetter();
   // or use 'Vue.use(StyleSetter)' in Vue Project
   ```
-
-  or, just for shorter， you can use it like:  
+  or  
   ``` js
-  require("StyleSetter")();
+  require("stylesetter")();
   ```
   
 #### 3. usage  
