@@ -47,4 +47,13 @@ npm install stylesetter
     </div>
 </template>
 ```  
-run `npm run test` to see more.  
+
+#### 4. test  
+``` bash
+git clone https://github.com/lopo12123/stylesetter.git
+
+cd stylesetter
+
+npm run test
+```  
+
