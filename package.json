@@ -1,7 +1,7 @@
 {
   "name": "stylesetter",
   "version": "1.0.0",
-  "description": "use xaml setter for elements` style in html",
+  "description": "Use the syntax like setter in xaml to write the style of the element",
   "main": "index.js",
   "scripts": {
     "test": "cd test && npx parcel index.html --open"
