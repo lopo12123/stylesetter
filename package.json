@@ -4,7 +4,7 @@
   "description": "use xaml setter for elements` style in html",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cd test && npx parcel index.html --open"
   },
   "keywords": [
     "xaml",
