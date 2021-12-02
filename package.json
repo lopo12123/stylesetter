@@ -1,0 +1,17 @@
+{
+  "name": "stylesetter",
+  "version": "1.0.0",
+  "description": "use xaml setter for elements` style in html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "xaml",
+    "style",
+    "setter",
+    "custom-element"
+  ],
+  "author": "lopo",
+  "license": "MIT"
+}
