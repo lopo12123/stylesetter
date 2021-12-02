@@ -13,5 +13,9 @@
     "custom-element"
   ],
   "author": "lopo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lopo12123/stylesetter.git"
+  },
   "license": "MIT"
 }
