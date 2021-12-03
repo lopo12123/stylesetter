@@ -20,7 +20,8 @@ npm install stylesetter
           module.default();
       }
   )
-  ```
+  ```  
+
 - _CJS_  
   ``` js
   const StyleSetter = require("stylesetter");
@@ -32,7 +33,12 @@ npm install stylesetter
   ``` js
   require("stylesetter")();
   ```
-  
+
+- _HTML_  
+  ```html
+  <script src="./stylesetter/lib/index.js"></script>
+  ```
+
 #### 3. usage  
 ``` html
 <template>
@@ -52,8 +58,6 @@ npm install stylesetter
 ``` bash
 git clone https://github.com/lopo12123/stylesetter.git
 
-cd stylesetter
-
-npm run test
+cd stylesetter && npm run test
 ```  
 
