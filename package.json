@@ -1,6 +1,6 @@
 {
   "name": "stylesetter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use the syntax like setter in xaml to write the style of the element",
   "main": "index.js",
   "scripts": {
