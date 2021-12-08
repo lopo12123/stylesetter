@@ -17,5 +17,8 @@
     "type": "git",
     "url": "https://github.com/lopo12123/stylesetter.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "fast-xml-parser": "^4.0.0-beta.6"
+  }
 }
