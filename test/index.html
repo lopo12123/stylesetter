@@ -11,12 +11,42 @@
     <body>
         <div id="root">
             <p>
-                you will see a gray rect with pink text in it
-                <style-setter property="color" value="pink"></style-setter>
+                1. without any mark of version: <br>
+                text-decoration: underline; <br>
+                box-shadow: #888888 5px 5px 5px; <br>
+                width: fit-content;
+                <style-setter property="text-decoration" value="underline"></style-setter>
+                <style-setter v2>
+                    <ss-box-shadow>#888888 5px 5px 5px</ss-box-shadow>
+                    <ss-width ss-fit-content></ss-width>
+                </style-setter>
             </p>
-            <style-setter property="width" value="400px"></style-setter>
-            <style-setter property="height" value="300px"></style-setter>
-            <style-setter property="background" value="gray"></style-setter>
+
+            <p>
+                2. v1`s test: <br>
+                color: pink; <br>
+                font-weight: bold;
+                <style-setter v1 property="color" value="pink"></style-setter>
+                <style-setter version="1" property="font-weight" value="bold"></style-setter>
+            </p>
+
+            <p>
+                3. v2`s test: <br>
+                background-color: yellow; <br>
+                border: solid 1px #aaaaaa; <br>
+                display: inline-block;
+                <style-setter v2>
+                    <ss-background-color value="yellow"></ss-background-color>
+                    <ss-display ss-inline-block></ss-display>
+                </style-setter>
+                <style-setter version="2">
+                    <ss-border>solid 1px #aaaaaa</ss-border>
+                </style-setter>
+            </p>
+
+            <br> <br> <br>
+
+            <a href="https://www.npmjs.com/package/stylesetter" target="_blank">click here to see more</a>
         </div>
     </body>
 </html>
